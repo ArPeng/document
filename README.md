@@ -54,7 +54,7 @@
 ```
 
 ### 前端检测完了之后，通知后端该号码的状态
-> http://api.eed91.cn/save.filter `post`
+> http://api.eed91.cn/save.filter `get`
 
 #### 请求头
 | 字段 | 字段值 | 描述 | 
@@ -66,6 +66,7 @@
   "mobile": 13123144888,
   "description": "微信登录状态的描述，前端在弹窗里面识别出来的文字"
 }
+// 请求示例  `http://api.eed91.cn/save.filter?mobile=13550601429&description=微信登录状态的描述，前端在弹窗里面识别出来的文字`
 ```
 #### 响应数据
 ```json
