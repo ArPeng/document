@@ -53,8 +53,8 @@
 }
 ```
 
-### 获取一个手机号码
-> http://api.eed91.cn/save.filter `get`
+### 前端检测完了之后，通知后端该号码的状态
+> http://api.eed91.cn/save.filter `post`
 
 #### 请求头
 | 字段 | 字段值 | 描述 | 
